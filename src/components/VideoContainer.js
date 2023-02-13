@@ -20,7 +20,8 @@ const VideoContainer = () => {
         {videos.map((video) =>(
            <Link to={"/watch?v="+ video.id}>
             <VideoCard key={video.id} info={video}/>
-            </Link> ))}
+            </Link> )
+            )};
         
     </div>
   )
